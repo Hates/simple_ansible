@@ -1,0 +1,6 @@
+---
+- name: Add the deploy user
+  user: name=deployment
+        home=/home/deployment
+        shell=/bin/bash
+        comment="Deployment User"

@@ -1,0 +1,15 @@
+---
+- hosts: typical-server
+
+  #user: root
+
+  # Vagrant setup
+  user: vagrant
+  sudo: true
+
+  roles:
+    - common
+    - deploy-user
+    - postgres-9.1
+    - ruby-2.0.0
+    - nginx-passenger
