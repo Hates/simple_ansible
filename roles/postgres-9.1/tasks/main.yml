@@ -1,6 +1,9 @@
 ---
 - name: Install postgres
-  apt: pkg=postgresql
+  apt: pkg=postgresql-9.1
 
 - name: Install postgres contrib
-  apt: pkg=postgresql-contrib
+  apt: pkg=postgresql-contrib-9.1
+
+- name: Install postgres dev
+  apt: pkg=postgresql-server-dev-9.1

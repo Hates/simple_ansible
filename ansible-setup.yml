@@ -1,11 +1,11 @@
 ---
 - hosts: typical-server
 
-  #user: root
+  user: root
 
   # Vagrant setup
-  user: vagrant
-  sudo: true
+  #user: vagrant
+  #sudo: true
 
   roles:
     - common
@@ -13,3 +13,5 @@
     - postgres-9.1
     - ruby-2.0.0
     - nginx-passenger
+
+# ansible-playbook -kv ansible-setup.yml -i ansible_hosts -c paramiko
