@@ -15,3 +15,8 @@ ufw allow ssh
 ufw allow ntp
 ufw enable
 ```
+
+```
+# Backups
+# Log rotate
+# Postgres hba config
