@@ -20,7 +20,7 @@
   with_items:
     - autoconf
     - build-essential
-    - libxslt-dev 
+    - libxslt1-dev
     - libxml2-dev
 
 - name: Install python-software-properties so the apt_repository module will work properly
