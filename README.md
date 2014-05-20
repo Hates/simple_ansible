@@ -2,6 +2,10 @@
 
 Simple ansible setup.
 
+# To Run
+
+`ansible-playbook -kv {setup.yml} -i {hosts.yml} -c paramiko`
+
 # After Install
 
 Needs UFW:
@@ -16,7 +20,10 @@ ufw allow ntp
 ufw enable
 ```
 
+# To Do
+
 ```
-# Backups
-# Log rotate
-# Postgres hba config
+Backups
+Log rotate
+Postgres hba config
+```

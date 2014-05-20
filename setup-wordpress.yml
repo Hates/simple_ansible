@@ -1,0 +1,11 @@
+---
+- hosts: wordpress-server
+
+  user: root
+
+  roles:
+    - common
+    - deploy-user
+    - mysql-5.5.37
+    - php5-fpm-5.3.10
+

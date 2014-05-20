@@ -1,0 +1,6 @@
+---
+- name: Install mysql
+  apt: pkg=mysql-server
+
+- name: Install php5-mysql
+  apt: pkg=php5-mysql
